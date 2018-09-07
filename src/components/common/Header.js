@@ -37,10 +37,9 @@ const styles = {
   }
 };
 
-// Make the component available to other parts of the app.
-export { Header };
-
 /** 
  * This export statement has been modified to utilize the pattern
  * described within ./index.js
  */
+export { Header };
+
