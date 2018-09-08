@@ -29,6 +29,7 @@ The "completed" app will be a simple Login screen that utilizes Firebase for use
     * It validates the styles.
     * From the docs: “*Making a stylesheet from a style object makes it possible to refer to it by ID instead of creating a new style object every time.*”
     * From the docs: “*It also allows to send the style only once through the bridge. All subsequent uses are going to refer an id (not implemented yet).*”
+    
 * If that doesn’t make any sense to you, just know that using `StyleSheet.create` better optimizes app performance.
 
 * Some of the code that he wrote didn't create the same visual output for me on my end.
