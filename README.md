@@ -8,10 +8,10 @@ The "completed" app will be a simple Login screen that utilizes Firebase for use
 
 * The user will be presented with a login screen with the following:
   1. An Email input box.
-  2. A Password inputbox.
+  2. A Password input box.
   3. A button to log them into Firebase
 
-* Once the user inputs their information and presses the button, we will display any errors that may have occured.
+* Once the user inputs their information and presses the button, we will display any errors that may have occurred.
 * If no errors occur, a loading spinner will be shown while our app sends information to Firebase.
 * If the request is successful, the user will be presented with a logout button in order to log out. 
 
@@ -22,7 +22,7 @@ The "completed" app will be a simple Login screen that utilizes Firebase for use
 * Controlled inputs are necessary to keep your code declarative, Grider goes into depth with this concept, which is good for beginners.
 * Creating our own reusable textInputs was cool. It’s like this course is arming me with ReactNative components to use in the future.
 
-* He forgot to inform the user to enable eslinting by creating an .eslintrc file and to `npm I —save-dev eslint-config-rallycoding`. I discorvered this a bit too late and didn't implement it.
+* He forgot to inform the user to enable eslinting by creating an .eslintrc file and to `npm I —save-dev eslint-config-rallycoding`. I discovered this a bit too late and didn't implement it.
 
 * I’m wondering why Grider doesn’t use the React Native `StyleSheet.create` method. I would see it used all the time within examples online, but he makes no reference to it.
 * The following points are reasons to use `StyleSheet.create`, found on stack overflow:
