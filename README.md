@@ -24,16 +24,14 @@ The "completed" app will be a simple Login screen that utilizes Firebase for use
 
 * He forgot to inform the user to enable eslinting by creating an .eslintrc file and to `npm I —save-dev eslint-config-rallycoding`. I discovered this a bit too late and didn't implement it.
 
-* I’m wondering why Grider doesn’t use the React Native `StyleSheet.create` method. I would see it used all the time within examples online, but he makes no reference to it.
+* I’m wondering why Grider didn't utilize the React Native `StyleSheet.create` method. It's pretty prevalent within the official docs, so I did some digging around to learn about what it does.
 * The following points are reasons to use `StyleSheet.create`, found on stack overflow:
     * It validates the styles.
     * From the docs: “*Making a stylesheet from a style object makes it possible to refer to it by ID instead of creating a new style object every time.*”
     * From the docs: “*It also allows to send the style only once through the bridge. All subsequent uses are going to refer an id (not implemented yet).*”
     
-* If that doesn’t make any sense to you, just know that using `StyleSheet.create` better optimizes app performance.
-
-* Some of the code that he wrote didn't create the same visual output for me on my end.
-* After searching through the Q&A, it looks like many others have similar problems and quick fixes are available if needed.
+* I'm assuming that using `StyleSheet.create` better optimizes app performance at scale, so I'm thinking that it's in my best interest to include it into my code for good measure.
+* Some of the code that he wrote didn't create the same visual output for me on my end, but after searching through the course Q&A, it looks like many others had similar problems at similar points and quick fixes are available, if needed.
 
 ## Final thoughts: 
 
